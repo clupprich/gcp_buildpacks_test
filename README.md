@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example repo to show an issue with https://github.com/GoogleCloudPlatform/buildpacks failing to add the Node.js runtime.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+pack build -v gcp_buildpacks_test --builder=gcr.io/buildpacks/builder
+```
